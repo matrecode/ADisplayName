@@ -19,6 +19,8 @@ const DisplayName = () => {
     e.preventDefault();
     if (firstName.trim() !== "" && lastName.trim() !== "") {
       setIsSubmitted(true);
+    } else {
+      setIsSubmitted(false);
     }
   };
 
