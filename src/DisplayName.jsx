@@ -17,7 +17,11 @@ const DisplayName = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitted(true);
+    if (firstName.trim() !== "" && lastName.trim() !== "") {
+      setIsSubmitted(true);
+    } else {
+      setIsSubmitted(false);
+    }
   };
 
   return (
@@ -48,14 +52,13 @@ const DisplayName = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-
-      <div>
-        {isSubmitted && (firstName.trim() || lastName.trim()) && (
+      {isSubmitted && firstName.length > 0 && lastName.length > 0 && (
+        <div>
           <>
             Full Name: {firstName} {lastName}
           </>
-        )}
-      </div>
+        </div>
+      )}
     </>
   );
 };
