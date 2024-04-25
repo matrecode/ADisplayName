@@ -24,28 +24,34 @@ const DisplayName = () => {
     <>
       <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="firstName"
-          id="firstName"
-          value={firstName}
-          onChange={handleChangeFirstName}
-          required
-        />
-        <input
-          type="text"
-          name="lastName"
-          id="lastName"
-          value={lastName}
-          onChange={handleChangeLastName}
-          required
-        />
+        <div>
+          <label>First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            value={firstName}
+            onChange={handleChangeFirstName}
+            required
+          />
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            value={lastName}
+            onChange={handleChangeLastName}
+            required
+          />
+        </div>
         <button type="submit">Submit</button>
       </form>
       {isSubmitted && (
-        <p>
-          Full Name : {firstName} {lastName}
-        </p>
+        <div>
+          Full Name : {firstName.trim()} {lastName.trim()}
+        </div>
       )}
     </>
   );
