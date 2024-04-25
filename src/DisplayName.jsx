@@ -56,7 +56,7 @@ const DisplayName = () => {
       <div>
         {isSubmitted && (
           <>
-            Full Name: {firstName.trim()} {lastName.trim()}
+            Full Name: {firstName} {lastName}
           </>
         )}
       </div>
