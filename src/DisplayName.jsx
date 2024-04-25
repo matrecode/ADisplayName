@@ -42,11 +42,10 @@ const DisplayName = () => {
         />
         <button type="submit">Submit</button>
       </form>
-      {isSubmitted && (
-        <p>
-          Full Name : {firstName.trim()} {lastName.trim()}
-        </p>
-      )}
+
+      <p>
+        {isSubmitted && `Full Name : ${firstName.trim()} ${lastName.trim()}`}
+      </p>
     </>
   );
 };
