@@ -26,7 +26,7 @@ const Login = () => {
     <>
       <h1>Login Page</h1>
       {isSubmitted ? (
-        <p>Welcome, {username} </p>
+        <p>Welcome, {username}! </p>
       ) : (
         <form onSubmit={handleSubmit}>
           <p>{error}</p>
