@@ -1,6 +1,7 @@
 // import Calculator from "./components/Calculator/Calculator";
 // import Stopwatch from "./components/Stopwatch/Stopwatch";
-import Dropdown from "./components/Dropdowns/Dropdown";
+// import Dropdown from "./components/Dropdowns/Dropdown";
+import Login from "./components/Login/Login";
 import "./styles.css";
 // import DisplayName from "./DisplayName.jsx";
 // import Counter from "./components/Counter/Counter.jsx";
@@ -11,7 +12,8 @@ export default function App() {
       {/* <Calculator /> */}
 
       {/* <Stopwatch /> */}
-      <Dropdown />
+      {/* <Dropdown /> */}
+      <Login />
     </div>
   );
 }
