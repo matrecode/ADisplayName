@@ -2,10 +2,11 @@
 // import Stopwatch from "./components/Stopwatch/Stopwatch";
 // import Dropdown from "./components/Dropdowns/Dropdown";
 // import Login from "./components/Login/Login";
+import Pagination from "./components/Pagination/Pagination";
 import "./styles.css";
 // import DisplayName from "./DisplayName.jsx";
 // import Counter from "./components/Counter/Counter.jsx";
-import CounterClass from "./components/ClassCounter/CounterClass";
+// import CounterClass from "./components/ClassCounter/CounterClass";
 export default function App() {
   return (
     <div>
@@ -15,7 +16,8 @@ export default function App() {
       {/* <Stopwatch /> */}
       {/* <Dropdown /> */}
       {/* <Login /> */}
-      <CounterClass />
+      {/* <CounterClass /> */}
+      <Pagination />
     </div>
   );
 }
