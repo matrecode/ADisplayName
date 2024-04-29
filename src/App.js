@@ -3,6 +3,7 @@
 // import Dropdown from "./components/Dropdowns/Dropdown";
 // import Login from "./components/Login/Login";
 import Dictionary from "./components/Dictionary/Dictionary";
+import Modal from "./components/Modal/Modal";
 import Pagination from "./components/Pagination/Pagination";
 import XSpellCheck from "./components/SpellCheck/SpellCheck";
 import Table from "./components/Table/Table";
@@ -25,7 +26,8 @@ export default function App() {
       {/* <WeatherApp /> */}
       {/* <XSpellCheck /> */}
       {/* <Dictionary /> */}
-      <Table />
+      {/* <Table /> */}
+      <Modal />
     </div>
   );
 }
