@@ -3,6 +3,7 @@
 // import Dropdown from "./components/Dropdowns/Dropdown";
 // import Login from "./components/Login/Login";
 import Pagination from "./components/Pagination/Pagination";
+import WeatherApp from "./components/WeatherApp/WeatherApp";
 import "./styles.css";
 // import DisplayName from "./DisplayName.jsx";
 // import Counter from "./components/Counter/Counter.jsx";
@@ -17,7 +18,8 @@ export default function App() {
       {/* <Dropdown /> */}
       {/* <Login /> */}
       {/* <CounterClass /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <WeatherApp />
     </div>
   );
 }
