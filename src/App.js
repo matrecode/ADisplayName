@@ -2,6 +2,7 @@
 // import Stopwatch from "./components/Stopwatch/Stopwatch";
 // import Dropdown from "./components/Dropdowns/Dropdown";
 // import Login from "./components/Login/Login";
+import Dictionary from "./components/Dictionary/Dictionary";
 import Pagination from "./components/Pagination/Pagination";
 import XSpellCheck from "./components/SpellCheck/SpellCheck";
 import WeatherApp from "./components/WeatherApp/WeatherApp";
@@ -21,7 +22,8 @@ export default function App() {
       {/* <CounterClass /> */}
       {/* <Pagination /> */}
       {/* <WeatherApp /> */}
-      <XSpellCheck />
+      {/* <XSpellCheck /> */}
+      <Dictionary />
     </div>
   );
 }
