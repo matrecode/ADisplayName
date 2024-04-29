@@ -5,6 +5,7 @@
 import Dictionary from "./components/Dictionary/Dictionary";
 import Pagination from "./components/Pagination/Pagination";
 import XSpellCheck from "./components/SpellCheck/SpellCheck";
+import Table from "./components/Table/Table";
 import WeatherApp from "./components/WeatherApp/WeatherApp";
 import "./styles.css";
 // import DisplayName from "./DisplayName.jsx";
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Pagination /> */}
       {/* <WeatherApp /> */}
       {/* <XSpellCheck /> */}
-      <Dictionary />
+      {/* <Dictionary /> */}
+      <Table />
     </div>
   );
 }
