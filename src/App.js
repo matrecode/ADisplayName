@@ -3,6 +3,7 @@
 // import Dropdown from "./components/Dropdowns/Dropdown";
 // import Login from "./components/Login/Login";
 import Pagination from "./components/Pagination/Pagination";
+import XSpellCheck from "./components/SpellCheck/SpellCheck";
 import WeatherApp from "./components/WeatherApp/WeatherApp";
 import "./styles.css";
 // import DisplayName from "./DisplayName.jsx";
@@ -19,7 +20,8 @@ export default function App() {
       {/* <Login /> */}
       {/* <CounterClass /> */}
       {/* <Pagination /> */}
-      <WeatherApp />
+      {/* <WeatherApp /> */}
+      <XSpellCheck />
     </div>
   );
 }
